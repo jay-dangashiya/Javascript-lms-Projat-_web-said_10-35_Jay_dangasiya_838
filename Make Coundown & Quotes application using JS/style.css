@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #005792;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #006494;
+}
+
+
+#timer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #333;
+}
+
+
+.number {
+  width: 60px;
+  padding: 8px;
+  font-size: 1rem;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 6px 4px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+#quoteDisplay {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 20px 0;
+  color: #444;
+}
+
+#newQuoteBtn {
+  background-color: #0096c7;
+}
+
+#newQuoteBtn:hover {
+  background-color: #0077b6;
+}

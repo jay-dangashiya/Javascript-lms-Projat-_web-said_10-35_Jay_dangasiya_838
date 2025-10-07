@@ -1,0 +1,45 @@
+practices:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Countdown & Quotes Application</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Countdown & Quotes Application</h1>
+    </header>
+
+    <section class="countdown">
+      <h2>Countdown Timer</h2>
+      <p>Set your countdown timer below:</p>
+      
+      <div class="time-inputs">
+        <input type="number" id="hours" placeholder="Hours" min="0" aria-label="Enter hours" />
+        <input type="number" id="minutes" placeholder="Minutes" min="0" max="59" aria-label="Enter minutes" />
+        <input type="number" id="seconds" placeholder="Seconds" min="0" max="59" aria-label="Enter seconds" />
+      </div>
+      
+      <div id="timer" class="timer-display">00:00:00</div>
+
+      <div class="buttons">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </section>
+
+    <section class="quotes">
+      <h2>Random Quote Generator</h2>
+      <p id="quoteDisplay">Click the button to get a random quote!</p>
+      <button id="newQuoteBtn">New Quote</button>
+    </section>
+  </main>
+
+  <script src="./javascript.js"></script>
+</body>
